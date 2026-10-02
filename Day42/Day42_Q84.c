@@ -21,7 +21,7 @@ int main()
 
     while (a[i] != '\0' && a[i] != '\n')
     {
-        if (a[i] > 'a' && a[i] < 'z')
+        if (a[i] >= 'a' && a[i] <= 'z')
         {
             a[i] -= 32;
         }
